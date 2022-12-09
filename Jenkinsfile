@@ -7,12 +7,14 @@ pipeline {
           chuckNorris()
         }
 
+        echo 'aahsdsads'
       }
     }
 
     stage('sleep') {
       steps {
         sleep 1
+        echo 'aahsdsads'
       }
     }
 
